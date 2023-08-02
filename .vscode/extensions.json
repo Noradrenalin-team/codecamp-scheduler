@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "adpyke.codesnap",
+        "github.copilot",
+        "ms-python.python",
+        "nutchanonninyawee.emoji-prefix-vscode",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles",
+        "davidanson.vscode-markdownlint",
+        "wakatime.vscode-wakatime",
+        "gruntfuggly.todo-tree",
+        "ms-python.black-formatter",
+        "ms-python.flake8"
+    ]
+}

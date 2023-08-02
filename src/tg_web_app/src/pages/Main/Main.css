@@ -1,0 +1,97 @@
+.container .main {
+  width: 600px;
+}
+
+.main .row {
+  display: flex;
+  gap: .3rem;
+}
+
+.row .dropdown {
+  width: 33%;
+}
+
+.row .delete-row__button {
+  padding: .5rem;
+  border: none;
+  border-radius: .25rem;
+  background-color: #50a7ea;
+  color: #fff;
+}
+
+.utils {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .3rem;
+}
+
+.utils .utils__button {
+  background-color: #50a7ea;
+  border: none;
+  padding: .5rem;
+  border-radius: .25rem;
+  color: white;
+}
+
+
+.table-container {
+  overflow: scroll;
+}
+
+.table-container table thead tr th {
+  min-width: 200px;
+  background-color: #50a7ea;
+  color: #fff;
+  padding: .5rem;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.table-container table td {
+  min-width: 200px;
+  background-color: #764c4c;
+  color: #fff;
+  padding: .5rem;
+  border: 1px solid #fff;
+}
+
+th,
+th p {
+  text-align: center;
+}
+
+.teaching-staff {
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: #50a7ea !important;
+}
+
+.table td.empty {
+  background-color: green;
+}
+
+@media (max-width: 650px) {
+  .container .main {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container .main {
+    width: 320px;
+  }
+
+  .table-container {
+    width: 100%;
+  }
+
+  button .hoTZAy {
+    width: auto;
+  }
+
+  .table-container table td,
+  .table-container table thead tr th {
+    width: 150px;
+  }
+}
